@@ -6,7 +6,7 @@ return [
         'status_id' => '1',
         'type_id' => '3',
         'start_date' => '2024-02-05',
-        'technologies' => ['1', '2']
+        'technologies' => ['4', '5']
     ],
     [
         'title' => 'laravel-dc-comics',
