@@ -1,0 +1,36 @@
+body {
+    letter-spacing: .1rem;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: Menlo, Roboto Mono, monospace;
+}
+
+
+.project-create,
+.project-update {
+
+    input,
+    textarea,
+    select {
+        background-color: #212121 !important;
+        color: white !important;
+    }
+
+    .input-group-text,
+    .input-group-select {
+        width: 150px;
+        color: #212121 !important;
+        background-color: white !important;
+    }
+
+    input[type=date]::-webkit-calendar-picker-indicator {
+        filter: invert(1);
+    }
+
+    .form-control:focus,
+    .form-select:focus {
+        box-shadow: unset !important;
+        border-color: inherit;
+    }
+
+}
