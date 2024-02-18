@@ -45,4 +45,6 @@
             </p>
 
             <a href="{{ route('admin.projects.index') }}" class="btn btn-primary mt-5">Take a look at my projects</a>
-        @endsection
+        </div>
+    </div>
+@endsection

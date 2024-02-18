@@ -8,7 +8,7 @@
     <div class="project-show container">
 
         <div class="mt-4">
-            {{-- Collegamento a tutti i fumetti --}}
+            {{-- Collegamento a tutti i progetti --}}
             <a href="{{ route('admin.projects.index') }}"
                 class="btn custom-btn orange text-uppercase mb-5 mt-5 fw-bold mx-auto d-block">Take
                 a look at all
